@@ -1,0 +1,24 @@
+.item {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(100, 3, 100);
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    padding: 10px 15px;
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.item__top,
+.item__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px
+}
+
